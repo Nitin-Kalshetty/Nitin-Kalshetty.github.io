@@ -42,3 +42,42 @@
     text-align: justify;
     line-height: 28px;
 }
+
+@media only screen and (max-width:600px){
+    #pic_div{
+        width: 120px;
+        height: 180px;
+        background-position-x: 9px;
+    }
+    .about_summary{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .about_name{
+        font-size: 14px;
+    }
+    .about_name_context{
+        font-size: 11px;
+    }
+    #about_content{
+        width: 40%;
+        margin-left: -5%;
+    }
+}
+
+
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+    #pic_div{
+
+    }
+    .about_summary{
+        font-size: 14px;
+    }
+    .about_name{
+        font-size: 20px;
+    }
+    .about_name_context{
+        font-size: 16px;
+    }
+}
