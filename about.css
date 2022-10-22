@@ -1,0 +1,44 @@
+#pic_div{
+    width: 220px;
+    height: 280px;
+    border:10px solid rgb(56, 54, 54);
+    border-radius: 50%;
+    background-image: url("/images/Nitin_Kalshetty_Pic.jpg");
+    background-size: contain;
+    background-position-x: 28px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-y: 15px;
+}
+.pic{
+    width: 100%;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+#about_div>h1{
+    text-align: center;
+    margin:2% auto;
+}
+#about_content{
+    width:60%;
+    border-radius: 15px;
+    background: rgba(59, 46, 46, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+    padding: 4%;
+
+}
+.about_name_context{
+    display: inline;
+}
+.about_name{
+    display: inline;
+}
+.about_summary{
+    margin-top: 5%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}

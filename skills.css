@@ -1,0 +1,36 @@
+#skills_div{
+    display: grid;
+    width: 60%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 3%;
+    
+}
+#skills_div>div{
+    width: 50%;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+ }
+ #skills_div>div>h1{
+    margin-top: 8%;
+ }
+#skills_div>div>img{
+   width: 100%;
+   padding:0.1%;
+}
+#skills_div>div>img:hover,#skills_div>div>h1:hover{
+   transform: scale(1.1);
+}
+#skills{
+    background-color: white;
+}
+#skills>h1{
+    font-size: 50px;
+    padding-top: 2.5%;
+    text-align: center;
+    color: black;
+
+    
+}

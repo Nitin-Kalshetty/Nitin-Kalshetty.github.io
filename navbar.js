@@ -1,8 +1,11 @@
 let menu = document.querySelector(".menu");
+let play=0;
 let count=0;
 let navData= document.querySelector("#navbar>ul")
+navData.style.display="none";
 let menu_img=document.querySelector(".menu");
 menu.addEventListener("click",function(){
+    console.log(count)
     if(count%2==0){
         menu_img.src="white_close.png";
         count++;
@@ -11,6 +14,16 @@ menu.addEventListener("click",function(){
         menu_img.src="white_menu.png";
         count++;
         navData.style.display="none";
+    }
+})
+window.addEventListener('resize',function(){
+    if(this.window.innerWidth<=600 && play==0){
+        navData.style.display="none";
+        count++;
+        play++;
+        menu_img.src="white_menu.png";
+    }else if(this.window.innerWidth>600 && count%2!=0){
+        play=0;
     }
 })
 
@@ -30,7 +43,7 @@ let str="";
                 closeId();
                 queryDesignation();
             }
-        },300)
+        },200)
     }, 1000);
 
 function closeId(){
@@ -48,7 +61,7 @@ function queryDesignation(){
             closeId();
             DesignationJava()
         }
-    },300)
+    },200)
 }
 function DesignationJava(){
     nameData="Java Backend Developer.";
@@ -61,7 +74,7 @@ function DesignationJava(){
             closeId();
             resumeWork()
         }
-    },300)
+    },200)
 }
 function resumeWork(){
     nameData="Resume";
@@ -74,7 +87,7 @@ function resumeWork(){
             closeId();
             resume.setAttribute("id","resumeID")
         }
-    },300)
+    },200)
 }
 
 function closeId(){
