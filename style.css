@@ -230,6 +230,7 @@ section .title::after {
   background-attachment: fixed;
 }
 
+
 .about .about-content .left {
   width: 45%;
 }
@@ -240,7 +241,6 @@ section .title::after {
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: white;
-
 }
 .about .about-content .right {
   width: 55%;
@@ -338,10 +338,6 @@ section .title::after {
   transition: all 0.3s ease;
 
 }
-.skill_tech_names{
-  text-align: center;
-  font-size: 20px;
-}
 .skills-images img:hover{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   height: 110%;
@@ -358,6 +354,12 @@ section .title::after {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 20%;
+  
+}
+.skill_tech_names{
+  text-align: center;
+  font-size: 20px;
+  padding-left: 25%;
 }
 .skills .skills-content .left .text {
   font-size: 20px;
@@ -656,8 +658,10 @@ footer span a:hover {
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
   }
 }
 
@@ -728,6 +732,8 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+    border:2px solid blue;
+    padding-left: 22%;
   }
 }
 
@@ -759,6 +765,11 @@ footer span a:hover {
   .about .about-content .right .text,
   .skills .skills-content .left .text {
     font-size: 19px;
+  }
+  .skills .skills-content .column{
+    grid-template-columns: repeat(1,1fr);
+    gap: 7%;
+    margin-bottom: 25%;
   }
   .contact .right form .fields {
     flex-direction: column;
