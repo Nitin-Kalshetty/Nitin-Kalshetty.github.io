@@ -675,6 +675,7 @@ footer span a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   }
+
 }
 
 @media (max-width: 991px) {
@@ -700,6 +701,13 @@ footer span a:hover {
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
+  }
+  .git_data{
+    display: block;
+    margin-top: 2%;
+  }
+  .gitContribution{
+    text-align: center;
   }
   .navbar .menu.active {
     left: 0;
@@ -764,9 +772,24 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  .git_data{
+    display: block;
+    margin-top: 2%;
+  }
+  .gitContribution{
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
+  .git_data{
+    display: block;
+    margin-top: 2%;
+  }
+  .gitContribution{
+    text-align: center;
+   
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }
