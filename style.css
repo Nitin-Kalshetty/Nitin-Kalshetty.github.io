@@ -709,6 +709,9 @@ footer span a:hover {
   .gitContribution{
     text-align: center;
   }
+  .git_data img{
+    width: 100%;
+  }
   .navbar .menu.active {
     left: 0;
   }
@@ -776,6 +779,9 @@ footer span a:hover {
     display: block;
     margin-top: 2%;
   }
+  .git_data img{
+    width: 100%;
+  }
   .gitContribution{
     text-align: center;
   }
@@ -786,9 +792,11 @@ footer span a:hover {
     display: block;
     margin-top: 2%;
   }
+  .git_data img{
+    width: 100%;
+  }
   .gitContribution{
     text-align: center;
-   
   }
   .home .home-content .text-2 {
     font-size: 50px;
