@@ -645,7 +645,6 @@ section .title::after {
   cursor: pointer;
   flex-wrap: nowrap;
   background: #92bcb5;
-  border: 2px solid #92bcb5;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
@@ -817,16 +816,21 @@ footer span a:hover {
   .column{
     margin-top: 40%;
   }
+  .column.right img{
+    margin-top: 20px;
+  }
 .title{
   margin-top: -12%;
 }
 .column.left{
-  margin-top: -5%;
+  margin-top:-5%;
 }
   .skill_tech_names{
     text-align: center;
     font-size: 15px;
     padding-left: 25%;
+    margin-top: 2%;
+    width: 110%;
   }
   .contact .right form .fields {
     flex-direction: column;
