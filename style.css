@@ -306,40 +306,6 @@ section .title::after {
   background: #111;
   /* content: "What I Provide"; */
 }
-.services .serv-content .card {
-  width: calc(33% - 20px);
-  background: #222;
-  text-align: center;
-  border-radius: 6px;
-  padding: 50px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.services .serv-content .card:hover {
-  background: #92bcb5;
-  color: #555;
-  /* change*/
-}
-.services .serv-content .card .box {
-  transition: all 0.3s ease;
-}
-.services .serv-content .card:hover .box {
-  transform: scale(1.05);
-}
-.services .serv-content .card i {
-  font-size: 50px;
-  color: #92bcb5;
-  transition: color 0.3s ease;
-}
-.services .serv-content .card:hover i {
-  color: #000;
-}
-.services .serv-content .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
 /* skills section styling */
 .skills-images img {
   height: 150px;
@@ -674,6 +640,7 @@ footer span a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   }
+  
 
 }
 
@@ -681,6 +648,8 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
+  
+  
 }
 @media (max-width: 947px) {
   .menu-btn {
@@ -746,10 +715,6 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
-  .services .serv-content .card {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-  }
   .skills .skills-content .column,
   .contact .contact-content .column {
     width: 100%;
@@ -771,9 +736,6 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
-  .services .serv-content .card {
-    width: 100%;
-  }
   .git_data{
     display: block;
     margin-top: 2%;
@@ -784,6 +746,7 @@ footer span a:hover {
   .gitContribution{
     text-align: center;
   }
+  
 }
 
 @media (max-width: 500px) {
