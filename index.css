@@ -603,6 +603,9 @@
     .desc,.techStack{
         width: 70%;
     }
+    .project{
+      padding-bottom: 20%;
+    }
 
  }
  @media (max-width:699px) and (min-width:100px){
@@ -747,7 +750,9 @@
         padding-bottom: 5%;
       }
      
-      
+      .project{
+        padding-bottom: 30%;
+      }
     
  }
 

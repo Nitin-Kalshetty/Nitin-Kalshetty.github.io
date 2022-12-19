@@ -632,6 +632,7 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -652,6 +653,7 @@ footer span a:hover {
   
 }
 @media (max-width: 947px) {
+ 
   .menu-btn {
     display: block;
     z-index: 999;
@@ -721,6 +723,7 @@ footer span a:hover {
     margin-bottom: 35px;
     padding-left: 22%;
   }
+  
 }
 
 @media (max-width: 690px) {
@@ -813,4 +816,5 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  
 }
