@@ -28,12 +28,18 @@ html {
 body {
    background: var(--bg-color);
    color: var(--text-color);
-}
-
-section {
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ section {
    min-height: 100vh;
-   padding: 10rem 9% 2rem;
-}
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+ }
+ 
 
 .header {
    position: fixed;
@@ -1190,4 +1196,165 @@ text.ContributionCalendar-label {
    color: #61b752;
    margin-top: -10px;
    display: block;
+}
+
+/* General Styles */
+.contact {
+   padding: 50px 0;
+   background-color: #f9f9f9;
+}
+
+.max-width {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.title {
+   text-align: center;
+   font-size: 2.5em;
+}
+
+.title span {
+   color: #007BFF;
+}
+
+/* Contact Content */
+.contact-content {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+/* Left Column */
+.column.left {
+   flex: 1;
+   padding-right: 20px;
+}
+
+.text {
+   font-size: 1.5em;
+   margin-bottom: 20px;
+}
+
+.icons {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.row {
+   display: flex;
+   align-items: center;
+}
+
+.row i {
+   font-size: 1.5em;
+   color: #007BFF;
+   margin-right: 10px;
+}
+
+.info .sub-title {
+   font-size: 1em;
+}
+
+.info a {
+   color: #333;
+   text-decoration: none;
+}
+
+.info a:hover {
+   color: #007BFF;
+}
+
+/* Right Column */
+.column.right {
+   flex: 1;
+}
+
+.text {
+   font-size: 1.5em;
+   margin-bottom: 20px;
+}
+
+.fields {
+   display: flex;
+   gap: 20px;
+   margin-bottom: 20px;
+}
+
+.field {
+   flex: 1;
+}
+
+textarea {
+   width: 100%;
+   padding: 12px;
+   margin-top: 10px;
+   font-size: 1em;
+   resize: vertical;
+}
+
+button {
+   padding: 12px 20px;
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   font-size: 1.2em;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+   .contact-content {
+       flex-direction: column;
+   }
+
+   .column.left, .column.right {
+       padding-right: 0;
+   }
+
+   .fields {
+       flex-direction: column;
+   }
+
+   .field {
+       width: 100%;
+   }
+
+   .button-area {
+       text-align: center;
+   }
+
+   .icons .row {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   .row i {
+       margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 480px) {
+   .title {
+       font-size: 2em;
+   }
+
+   .text {
+       font-size: 1.2em;
+   }
+
+   .info .sub-title {
+       font-size: 0.9em;
+   }
+
+   button {
+       width: 100%;
+   }
 }
