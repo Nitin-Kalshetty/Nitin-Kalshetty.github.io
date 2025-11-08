@@ -34,10 +34,9 @@ body {
  }
  
  section {
-   min-height: 100vh;
    overflow: hidden;
-   margin: 0;
-   padding: 0;
+   min-height: 100vh;
+   padding-top: 10%;
  }
  
 
@@ -1196,4 +1195,37 @@ text.ContributionCalendar-label {
    color: #61b752;
    margin-top: -10px;
    display: block;
+}
+
+.contactMain{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   border: 3px solid green;
+   margin: auto;
+   padding: auto;
+}
+
+
+.iconDiv{
+   border: 2px solid red;
+}
+.iconDiv a{
+   margin: 0%;
+}
+.iconDiv span{
+   color: white;
+   margin-left: 3%;
+   padding: auto;
+   font-size: 2rem;
+}
+.contactSub h2{
+   font-size: 2rem;
+}
+.contactSub p{
+   font-size: 1.6rem;
+}
+.contactSub{
+   border: 2px solid blue;
+   display: flex;
+   text-align: center;
 }
