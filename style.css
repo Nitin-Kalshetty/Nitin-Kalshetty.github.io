@@ -37,6 +37,7 @@ body {
    overflow: hidden;
    min-height: 100vh;
    padding-top: 10%;
+   margin: 0 0 5% 5%;
  }
  
 
@@ -706,6 +707,36 @@ text.ContributionCalendar-label {
 }
 
 
+.contactMain{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10rem;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.iconDiv{
+   margin-top: 3%;
+}
+.iconDiv a{
+   margin: 0%;
+}
+.iconDiv span{
+   color: white;
+   margin-left: 3%;
+   padding: auto;
+   font-size: 2rem;
+}
+.contactSub h2{
+   font-size: 2rem;
+}
+.contactSub p,.contactSub1 p{
+   font-size: 1.6rem;
+   width: 80%;
+}
+.contactSub{
+   text-align: center;
+}
+
 
 
 
@@ -856,6 +887,34 @@ text.ContributionCalendar-label {
    .git_data img {
       width: 100%;
    }
+
+
+   .contactMain{
+      display: block;
+   }
+   .iconDiv{
+      margin-top: 3%;
+   }
+   .iconDiv a{
+      margin: 0%;
+   }
+   .iconDiv span{
+      font-size: 1.25rem;
+      margin-left: 3%;
+      padding: auto;
+   }
+   .contactSub h2{
+      font-size: 2.1rem;
+   }
+   .contactSub p,.contactSub1 p{
+      font-size: 1.4rem;
+      width: 80%;
+      text-align: center;
+   }
+   .contactSub{
+      text-align: center;
+      margin-top: 10%;
+   }
 }
 
 @media(max-width:768px) {
@@ -983,6 +1042,33 @@ text.ContributionCalendar-label {
    .gitContribution {
       text-align: center;
    }
+
+   .contactMain{
+      display: block;
+   }
+   .iconDiv{
+      margin-top: 3%;
+   }
+   .iconDiv a{
+      margin: 0%;
+   }
+   .iconDiv span{
+      font-size: 1.1rem;
+      margin-left: 3%;
+      padding: auto;
+   }
+   .contactSub h2{
+      font-size: 1.8rem;
+   }
+   .contactSub p,.contactSub1 p{
+      font-size: 1.4rem;
+      width: 80%;
+      text-align: center;
+   }
+   .contactSub{
+      text-align: center;
+      margin-top: 10%;
+   }
 }
 
 @media(max-width:617px) {
@@ -1051,6 +1137,33 @@ text.ContributionCalendar-label {
    .gitContribution {
       text-align: center;
    }
+
+   .contactMain{
+      display: block;
+   }
+   .iconDiv{
+      margin-top: 3%;
+   }
+   .iconDiv a{
+      margin: 0%;
+   }
+   .iconDiv span{
+      font-size: 0.9rem;
+      margin-left: 3%;
+      padding: auto;
+   }
+   .contactSub h2{
+      font-size: 1.6rem;
+   }
+   .contactSub p,.contactSub1 p{
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+   }
+   .contactSub{
+      text-align: center;
+      margin-top: 10%;
+   }
 }
 
 @media(max-width:450px) {
@@ -1117,6 +1230,32 @@ text.ContributionCalendar-label {
 
    .gitContribution {
       text-align: center;
+   }
+   .contactMain{
+      display: block;
+   }
+   .iconDiv{
+      margin-top: 3%;
+   }
+   .iconDiv a{
+      margin: 0%;
+   }
+   .iconDiv span{
+      font-size: 0.9rem;
+      margin-left: 3%;
+      padding: auto;
+   }
+   .contactSub h2{
+      font-size: 1.6rem;
+   }
+   .contactSub p,.contactSub1 p{
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+   }
+   .contactSub{
+      text-align: center;
+      margin-top: 20%;
    }
 }
 
@@ -1189,43 +1328,37 @@ text.ContributionCalendar-label {
       text-align: center;
    }
 
+   .contactMain{
+      display: block;
+   }
+   .iconDiv{
+      margin-top: 3%;
+   }
+   .iconDiv a{
+      margin: 0%;
+   }
+   .iconDiv span{
+      font-size: 0.8rem;
+      margin-left: 3%;
+      padding: auto;
+   }
+   .contactSub h2{
+      font-size: 1.2rem;
+   }
+   .contactSub p,.contactSub1 p{
+      font-size: 0.8rem;
+      width: 80%;
+      text-align: center;
+   }
+   .contactSub{
+      text-align: center;
+      margin-top: 20%;
+   }
+
 }
 
 #msg {
    color: #61b752;
    margin-top: -10px;
    display: block;
-}
-
-.contactMain{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   border: 3px solid green;
-   margin: auto;
-   padding: auto;
-}
-
-
-.iconDiv{
-   border: 2px solid red;
-}
-.iconDiv a{
-   margin: 0%;
-}
-.iconDiv span{
-   color: white;
-   margin-left: 3%;
-   padding: auto;
-   font-size: 2rem;
-}
-.contactSub h2{
-   font-size: 2rem;
-}
-.contactSub p{
-   font-size: 1.6rem;
-}
-.contactSub{
-   border: 2px solid blue;
-   display: flex;
-   text-align: center;
 }
