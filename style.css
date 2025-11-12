@@ -900,11 +900,11 @@ text.ContributionCalendar-label {
       margin-left: 3%;
       padding: auto;
    }
-   .contactSub h2{
-      font-size: 2.1rem;
+   .contactSub h2,.contactSub1 h2{
+      font-size: 3.8rem;
    }
    .contactSub p,.contactSub1 p{
-      font-size: 1.4rem;
+      font-size: 2.5rem;
       width: 80%;
       text-align: center;
    }
@@ -946,7 +946,7 @@ text.ContributionCalendar-label {
    }
 
    .home-content h3 {
-      font-size: 2.6rem;
+      font-size: 3rem;
    }
 
    .home-content h1 {
@@ -968,11 +968,11 @@ text.ContributionCalendar-label {
    }
 
    .skills h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 3.5rem;
    }
 
    .portfolio h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 3.5rem;
    }
 
    .portfolio-container {
@@ -991,20 +991,22 @@ text.ContributionCalendar-label {
    }
 
    .about-box i {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: var(--main-color);
    }
 
    .about-box h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
    }
 
    .about-box h3 {
-      font-size: 2rem;
+      font-size: 3rem;
+      padding-top: 15%;
+      padding-bottom: 5%;
    }
 
    .about-box p {
-      font-size: 1.5rem;
+      font-size: 2.2rem;
       margin: 2rem 0 3rem;
       width: 40rem;
    }
@@ -1016,15 +1018,15 @@ text.ContributionCalendar-label {
 
    .home-content h3,
    .home-content h1 {
-      font-size: 2rem;
+      font-size: 2.8rem;
    }
 
    .resumeButton {
-      font-size: 0.9rem;
+      font-size: 1.5rem;
    }
 
    .skills-box h3 {
-      font-size: 1.0rem;
+      font-size: 1.3rem;
    }
 
    .git_data {
@@ -1050,15 +1052,15 @@ text.ContributionCalendar-label {
       margin: 0%;
    }
    .iconDiv span{
-      font-size: 1.1rem;
+      font-size: 2.2rem;
       margin-left: 3%;
       padding: auto;
    }
-   .contactSub h2{
-      font-size: 1.8rem;
+   .contactSub h2,.contactSub1 h2{
+      font-size: 3.5rem;
    }
    .contactSub p,.contactSub1 p{
-      font-size: 1.4rem;
+      font-size: 2.2rem;
       width: 80%;
       text-align: center;
    }
@@ -1086,20 +1088,22 @@ text.ContributionCalendar-label {
    }
 
    .about-box i {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: var(--main-color);
    }
 
    .about-box h2 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
    }
 
    .about-box h3 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
+      padding-top: 15%;
+      padding-bottom: 5%;
    }
 
    .about-box p {
-      font-size: 1.2rem;
+      font-size: 2.5rem;
       margin: 2rem 0 3rem;
       width: 40rem;
    }
@@ -1111,15 +1115,15 @@ text.ContributionCalendar-label {
 
    .home-content h3,
    .home-content h1 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
    }
 
    .resumeButton {
-      font-size: 0.7rem;
+      font-size: 1.5rem;
    }
 
    .skills-box h3 {
-      font-size: 0.8rem;
+      font-size: 1.5rem;
    }
 
    .git_data {
@@ -1145,15 +1149,15 @@ text.ContributionCalendar-label {
       margin: 0%;
    }
    .iconDiv span{
-      font-size: 0.9rem;
+      font-size: 1.5rem;
       margin-left: 3%;
       padding: auto;
    }
-   .contactSub h2{
-      font-size: 1.6rem;
+   .contactSub h2,.contactSub1 h2{
+      font-size: 3.5rem;
    }
    .contactSub p,.contactSub1 p{
-      font-size: 1.2rem;
+      font-size: 2rem;
       width: 80%;
       text-align: center;
    }
@@ -1184,20 +1188,22 @@ text.ContributionCalendar-label {
    }
 
    .about-box i {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: var(--main-color);
    }
 
    .about-box h2 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
    }
 
    .about-box h3 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
+      padding-top: 15%;
+      padding-bottom: 5%;
    }
 
    .about-box p {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       margin: 2rem 0 3rem;
       width: 40rem;
    }
@@ -1213,7 +1219,7 @@ text.ContributionCalendar-label {
    }
 
    .skills-box h3 {
-      font-size: 0.8rem;
+      font-size: 1.2rem;
    }
 
    .git_data {
@@ -1238,15 +1244,15 @@ text.ContributionCalendar-label {
       margin: 0%;
    }
    .iconDiv span{
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       margin-left: 3%;
       padding: auto;
    }
-   .contactSub h2{
-      font-size: 1.6rem;
+   .contactSub h2,.contactSub1 h2{
+      font-size: 3.5rem;
    }
    .contactSub p,.contactSub1 p{
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       width: 80%;
       text-align: center;
    }
@@ -1290,15 +1296,17 @@ text.ContributionCalendar-label {
    }
 
    .about-box h2 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
    }
 
    .about-box h3 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
+      padding-top: 15%;
+      padding-bottom: 5%;
    }
 
    .about-box p {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin: 2rem 0 3rem;
       width: 30rem;
    }
@@ -1309,7 +1317,7 @@ text.ContributionCalendar-label {
    }
 
    .skills-box h3 {
-      font-size: 0.8rem;
+      font-size: 1.2rem;
    }
 
    .git_data {
@@ -1335,15 +1343,15 @@ text.ContributionCalendar-label {
       margin: 0%;
    }
    .iconDiv span{
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       margin-left: 3%;
       padding: auto;
    }
-   .contactSub h2{
-      font-size: 1.2rem;
+   .contactSub h2,.contactSub1 h2{
+      font-size: 2.5rem;
    }
    .contactSub p,.contactSub1 p{
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       width: 80%;
       text-align: center;
    }
