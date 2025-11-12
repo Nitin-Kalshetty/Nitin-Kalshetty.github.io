@@ -22,10 +22,7 @@
                 <a href="#skills">Skills</a>
                 <a href="#portfolio">Projects</a>
                 <a href="#contact">Contact</a>
-                <a href="https://drive.google.com/uc?export=download&id=1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE" download style="font-weight: bolder;">
-                    Resume
-                  </a>
-                  
+                <a href="https://drive.google.com/file/d/1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE/view" class="resumeButton1" target="_blank">Resume</a>
             </nav>
         </header>
         <section class="home" id="home">
@@ -38,7 +35,15 @@
                     <a href="mailto:nitinkalshetty3851@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
                     <a href="https://in.linkedin.com/in/nitinkalshetty/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
                 </div>
-                <a href="https://drive.google.com/uc?export=download&id=1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE" target="_blank" download class="btn resumeButton" style="font-weight: bolder;">Resume</a>
+                <a href="https://drive.google.com/file/d/1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE/view" 
+   target="_blank" 
+   class="btn resumeButton" 
+   style="font-weight: bolder;">
+   Resume
+</a>
+<a href="https://drive.google.com/uc?export=download&id=1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE" target="_blank" class="resBtn" style="display:none;"></a>
+
+             
             </div>
         </section>
 
@@ -358,6 +363,17 @@
 
 
     <script>
+
+document.querySelector('.resumeButton').addEventListener('click', function(e) {
+  e.preventDefault(); 
+  window.open('https://drive.google.com/file/d/1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE/view', '_blank'); 
+  document.querySelector('.resBtn').click(); 
+});
+document.querySelector('.resumeButton1').addEventListener('click', function(e) {
+  e.preventDefault(); 
+  window.open('https://drive.google.com/file/d/1-nXXs2W3XuVGkcaHWRw57JZjKQIxCIkE/view', '_blank'); 
+  document.querySelector('.resBtn').click(); 
+});
         document.getElementById("myForm")
             .addEventListener("submit", function (event) {
                 event.preventDefault();
