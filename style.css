@@ -89,8 +89,12 @@ body {
    justify-content: center;
    align-items: center;
    width: 80%;
+   margin: auto;
+   padding-left: 1%;
 }
-
+.homeSummary-text{
+   font-weight: bolder;
+}
 .home-img img {
    width: 35vw;
    animation: floatImage 4s ease-in-out infinite;
@@ -130,6 +134,11 @@ span {
    font-size: 5.6rem;
    font-weight: 700;
    line-height: 1.3;
+}
+
+.homeSummary{
+   width: 80%;
+   font-size: 3rem;
 }
 
 .social-media a {
