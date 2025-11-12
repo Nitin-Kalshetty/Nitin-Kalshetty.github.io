@@ -95,6 +95,7 @@ body {
 .homeSummary-text{
    font-weight: bolder;
 }
+
 .home-img img {
    width: 35vw;
    animation: floatImage 4s ease-in-out infinite;
