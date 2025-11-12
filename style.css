@@ -857,14 +857,14 @@ text.ContributionCalendar-label {
    .home-content {
       width: 80%;
    }
-
    .home-content h3,
    .home-content h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin-top: 2%;
    }
 
    .resumeButton {
-      font-size: 1.2rem;
+      font-size: 2rem;
    }
 
    .skills-box h3 {
@@ -953,6 +953,7 @@ text.ContributionCalendar-label {
       font-size: 5rem;
    }
 
+   
    .home-img img {
       width: 70vw;
       margin-top: 4rem;
@@ -1022,7 +1023,7 @@ text.ContributionCalendar-label {
    }
 
    .resumeButton {
-      font-size: 1.5rem;
+      font-size: 2rem;
    }
 
    .skills-box h3 {
@@ -1115,11 +1116,11 @@ text.ContributionCalendar-label {
 
    .home-content h3,
    .home-content h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
    }
 
    .resumeButton {
-      font-size: 1.5rem;
+      font-size: 2rem;
    }
 
    .skills-box h3 {
@@ -1215,7 +1216,7 @@ text.ContributionCalendar-label {
 
    .home-content h3,
    .home-content h1 {
-      font-size: 1.6rem;
+      font-size: 3rem;
    }
 
    .skills-box h3 {
@@ -1259,6 +1260,9 @@ text.ContributionCalendar-label {
    .contactSub{
       text-align: center;
       margin-top: 20%;
+   }
+   .resumeButton{
+      font-size: 2rem;
    }
 }
 
@@ -1367,3 +1371,5 @@ text.ContributionCalendar-label {
    margin-top: -10px;
    display: block;
 }
+
+ 
